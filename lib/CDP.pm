@@ -1,5 +1,5 @@
 package CDP;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use 5.008006;
 use strict;
@@ -39,13 +39,12 @@ require AutoLoader;
 	dumpARef
     dumpHRef
 
-# backupTask
     editBackupTask
     getScheduledTaskIdsByHost
     runNow
     scheduleBackupTask
     scheduleMinutelyBackupTask
-# diskSafe
+
     addDiskSafe
     addDiskSafeWithEncryption
     deleteDiskSafe
@@ -63,7 +62,7 @@ require AutoLoader;
     runEncryptionSetup
     setCompressionLevel
     setPassphrase
-# host
+
     addAdmin
     addBackupUser
     addFullControlUser
@@ -109,7 +108,7 @@ require AutoLoader;
     setsControlPanelModuleEnabled
     setTimeout
     setWindowsHostType
-# mySQL
+
     addLocalMySQLInstance
     addRemoteMySQLInstance
     deleteMySQLInstance
@@ -124,15 +123,15 @@ require AutoLoader;
     setMySQLPort
     setMySQLSocketPath
     setMySQLUser
-# storagepool
+
     getStoragePool
     getStoragePoolByName
     getStoragePoolIDByName
     getStoragePoolIDs
-# taskRun
+
     getTaskLogs
     getTaskRun
-# user
+
     addAdmin
     addBasicUser
     addSuperUser
@@ -154,7 +153,7 @@ require AutoLoader;
     setMustChangePassword
     setPassword
     setUsername
-# volume
+
     addUser
     addVolume
     deleteVolume
