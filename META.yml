@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:               CDP
-version:            0.03
-abstract:           Perl extension for blah blah blah
+version:            0.031
+abstract:           Perl wrapper R1Soft CDP (Constant Data Protection) API.
 author:
     - jon <jon@>
 license:            unknown
