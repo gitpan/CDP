@@ -1,5 +1,5 @@
 package CDP;
-our $VERSION = '0.031';
+our $VERSION = '0.032';
 
 use 5.008006;
 use strict;
